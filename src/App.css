@@ -1,0 +1,78 @@
+/* Stile di base per l'applicazione */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra orizzontalmente */
+  justify-content: center; /* Centra verticalmente */
+  gap: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+  min-height: 100vh; /* Assicura che l'app si estenda per tutta l'altezza della viewport */
+}
+
+/* Stilizza il titolo principale */
+h1 {
+  color: #333;
+  text-align: center; /* Centra il testo del titolo */
+}
+
+/* Stilizza i campi di input e il bottone */
+input, select, button {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 80%;
+  text-align: center; /* Centra il testo all'interno degli input */
+}
+
+/* Stilizza il bottone 'Aggiungi Movimento' */
+button {
+  background-color: #5cb85c;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+/* Stili per il riquadro di 'Gestione Saldo' */
+h2 {
+  border: 2px solid #5cb85c;
+  padding: 15px;
+  margin: 20px 0;
+  width: fit-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: white;
+  text-align: center; /* Centra il testo del riquadro */
+}
+
+/* Stili per la visualizzazione delle transazioni */
+div.transazione {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centra il testo delle transazioni */
+}
+
+/* Stilizza i totali */
+h3 {
+  color: #333;
+  text-align: center; /* Centra i titoli delle sezioni totali */
+}
+
+p {
+  color: #666;
+  text-align: center; /* Centra il testo dei paragrafi */
+}
+
+/* Aggiungi qui ulteriori stili se necessario */
